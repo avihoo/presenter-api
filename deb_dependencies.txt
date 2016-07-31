@@ -1,0 +1,6 @@
+# set deb dependencies for project
+# example:
+# python-virtualenv
+# python-pip
+# nodejs (=0.10.33)
+python-lxml

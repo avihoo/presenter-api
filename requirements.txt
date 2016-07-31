@@ -1,0 +1,7 @@
+Flask==0.9
+uWSGI==1.9.14
+sh==1.11
+dateutils==0.6.6
+python-amazon-product-api==0.2.8
+lxml==3.4.4
+ebaysdk==2.1.2

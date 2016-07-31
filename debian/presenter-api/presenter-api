@@ -1,0 +1,11 @@
+#!upstart
+start on (filesystem and started networking)
+stop on shutdown
+
+console log
+respawn
+respawn limit 10 5
+
+script
+   exec /opt/presenter-api/bin/uwsgi /opt/presenter-api/conf/uwsgi.ini
+end script
